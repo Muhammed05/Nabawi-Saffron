@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#contactMe{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30vw;
+}
+#email{
+    width: 100%;
+
+}
+#name{
+    width: 100%;
+}
+#number{
+    width: 100%;
+}
+#file{
+
+}
+.social-Media-btn {
+    color: white;
+    background-color: rgba(68, 67, 67, 0.842);
+    font-size: 36px;
+    text-decoration: none;
+    transition: ease-in-out .4s;
+    -webkit-transition: ease-in-out .4s;
+    padding: 10px;
+    border: 2px solid transparent;
+    margin: 15px;
+  }
+  .social-Media-btn:hover{
+    border: 2px solid ;
+    padding: 15px;
+    border-radius: 100px;
+    background-color: rgba(68, 67, 67, 0.842);
+  }
+
+  @media only screen and (max-width: 850px) {
+    #contactMe{
+        padding: 0 10vw;
+    }
+}
