@@ -2420,7 +2420,7 @@ body {
   padding-top: 3.25rem; }
   body:before {
     content: ' ';
-    background-image: url(../../images/bg.jpg);
+    background-image: url(/media/Safron\ main\ page.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -2527,7 +2527,7 @@ body {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: linear-gradient(rgba(17, 17, 17, 0.25), rgba(17, 17, 17, 0.25)), url("../../images/banner.jpg");
+  background-image: linear-gradient(rgba(17, 17, 17, 0.25), rgba(17, 17, 17, 0.25)), url("/media/5B93E0C7-3521-4C5F-B1C1-C5FFB25C39F2.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3636,5 +3636,5 @@ body.is-menu-visible #menu {
   .viewCart{
    position: fixed;
   right: 0;
-   top: 5%;
+   top: 7%;
   }
