@@ -3633,4 +3633,8 @@ body.is-menu-visible #menu {
     font-weight: 600;
   }
   
-  
+  .viewCart{
+   position: fixed;
+  right: 0;
+   top: 5%;
+  }
