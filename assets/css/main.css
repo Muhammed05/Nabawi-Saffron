@@ -3638,3 +3638,41 @@ body.is-menu-visible #menu {
   right: 0;
    top: 7%;
   }
+
+			* {
+  box-sizing: border-box;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+.imgSrc{
+  width: 100%;
+}
+@media only screen and (max-width: 750px) {
+  .imgSrc{
+      width: 100%;
+  }
+}
+@media only screen and (min-width: 377px) {
+  .imgSrc{
+      width: 100%;
+  }
+}
+.photoP{
+  font-size: 21px;
+}

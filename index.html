@@ -8,9 +8,12 @@
 		<meta name="keywords" content="" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<script src="https://kit.fontawesome.com/939c3b7b3f.js" crossorigin="anonymous"></script>
+		<style>
+			
+		</style>
 	</head>
 	<body class="is-preload">
-
+		
 		<!-- Header -->
 			<header id="header">
 				<a class="logo" href="index.html">Nabawi</a>
@@ -144,13 +147,23 @@
 		<!-- CTA -->
 			<section id="cta" class="wrapper">
 				<div class="inner">
-					<h2>Coming Soon!!!</h2>
-					<!--<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
-					-->
+					<h2>Photos</h2>
+					<p class="photoP">Some of our product and process photos!</p> <br> <br>
+					<div class="row">
+						<div class="column">
+						  <img class="imgSrc" src="media/3B55A858-9695-46FB-B9C1-B294CD54A487.JPG">
+						  <img class="imgSrc" src="media/Logo.jpeg">
+						</div>
+						<div class="column">
+							<img class="imgSrc" src="media/5B93E0C7-3521-4C5F-B1C1-C5FFB25C39F2.JPG">
+							<img src="media/Safron main page2.jpg" alt="" class="imgSrc">
+						</div>
+					  </div>
 					</div>
-			</section>
-
+ <br> <br> <br> 
+  </section>
 		<!-- Testimonials -->
+		<!--
 			<section class="wrapper">
 				<div class="inner">
 					<header class="special">
@@ -202,7 +215,7 @@
 					</div>
 				</div>
 			</section>
-
+-->
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="inner">
@@ -240,6 +253,31 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script>// Get the elements with class="column"
+				var elements = document.getElementsByClassName("column");
+				
+				// Declare a "loop" variable
+				var i;
+				
+				// Full-width images
+				function one() {
+				  for (i = 0; i < elements.length; i++) {
+					elements[i].style.flex = "100%";
+				  }
+				}
+				
+				// Two images side by side
+				function two() {
+				  for (i = 0; i < elements.length; i++) {
+					elements[i].style.flex = "50%";
+				  }
+				}
+				
+				// Four images side by side
+				function four() {
+				  for (i = 0; i < elements.length; i++) {
+					elements[i].style.flex = "25%";
+				  }
+				}</script>
 	</body>
 </html>
